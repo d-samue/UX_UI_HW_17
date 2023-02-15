@@ -1,0 +1,58 @@
+/*Beginning of NavBar style*/
+
+/*inline-block allows the set a w+h on the element; 
+does not add a line-break after the element so it can sit w/ other elements */
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.logo{
+    width:23%;
+    padding:1%;
+    text-align:center;
+}
+
+nav{
+    width:73%;
+    padding:1%;
+    background-color:#CE9C62;
+}
+
+nav>ul{
+    width:50%;
+    margin-left:auto;
+}
+
+/*End of NavBar style*/
+
+/*Beginning of HeroImage style*/
+.heroImg{
+    height: 600px;
+    padding: 25px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.content{
+    width:500px;
+    margin:0 auto;
+}
+
+/*Ending of HeroImage style*/
+
+/*Beginning of Footer style*/
+
+footer{
+    background-color:#CE9C62;
+    padding:1%;
+}
+
+footer>ul {
+    display:inline-block;
+    vertical-align:top;
+    padding:1%;
+}
+footer>li{
+padding:1%;
+}
