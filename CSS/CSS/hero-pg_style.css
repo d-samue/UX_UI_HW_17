@@ -1,7 +1,7 @@
 *{
     margin:0;
 }
-body{
+.herobg{
     background-color: #2E1104;
 }
     /*beginning of nav bar style*/
@@ -109,7 +109,7 @@ footer{
 }
 .foot_buttons{
     margin:0px;
-    width: 80px;
+    width: 80 px;
 }
 
 .foot-items{
