@@ -1,58 +1,122 @@
-/*Beginning of NavBar style*/
+*{
+    margin:0;
+}
+body{
+    background-color: #2E1104;
+}
+    /*beginning of nav bar style*/
 
-/*inline-block allows the set a w+h on the element; 
-does not add a line-break after the element so it can sit w/ other elements */
+    .nav_buttons{
+    list-style-type: none;
+    margin:0px;
+    width: 80 px;
+    overflow: hidden;
+    padding: 14px 16px;
+}
+
+.nav-item {
+    display: inline-block;
+    color: #2E1104;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+.nav-item:hover{
+    color:#CE9C62;
+    background-color: #2E1104;
+}
+.nav-item:active{
+    color:#CE9C62;
+    background-color: #2E1104;
+}
+
+li a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.navigation{
+    background-color: #CE9C62;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+}
 .inline-block{
-    display:inline-block;
-    vertical-align:top;
+    display: inline-block;
+    text-decoration: none;
+    position: sticky;
 }
-
-.logo{
-    width:23%;
-    padding:1%;
-    text-align:center;
+#logo{
+    height: 80px;
+    width: 80px;
 }
+/*end of nav bar style*/
 
-nav{
-    width:73%;
-    padding:1%;
-    background-color:#CE9C62;
-}
-
-nav>ul{
-    width:50%;
-    margin-left:auto;
-}
-
-/*End of NavBar style*/
-
-/*Beginning of HeroImage style*/
-.heroImg{
-    height: 600px;
-    padding: 25px;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-
+/*beginning of heroimage style*/
 .content{
-    width:500px;
-    margin:0 auto;
+    width: 355px;
+    background-color:#CE9C62 ;
+    margin-left: auto;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
-/*Ending of HeroImage style*/
+#me{
+    height: 250px;
+    width: 300px;  
+    align-self: center;
+}
 
-/*Beginning of Footer style*/
+.heroImg{
+    justify-content: left;
+    padding: 20%;
+}
+
+h1,p{
+padding: 10px;
+text-align: left;
+color:#2E1104;
+}
+
+button{
+    padding: 10px;
+    color: #CE9C62;
+    background-color: #2E1104;
+    border:none;
+}
+
+button:active{
+    border:#2E1104;
+    color:#2E1104;
+    background-color: #fed19e;
+}
+
+/*end of heroimage style*/
+
+/*beginning of footer style*/
+#footer{
+    background-color: #ebc293c0;
+    padding: 0px;
+    width:100%;
+    margin-top: 100%;
+
+}
 
 footer{
-    background-color:#CE9C62;
-    padding:1%;
+    display:inline-block;
+}
+.foot_buttons{
+    margin:0px;
+    width: 80 px;
 }
 
-footer>ul {
-    display:inline-block;
-    vertical-align:top;
-    padding:1%;
+.foot-items{
+    text-decoration: none;
+    color:#2E1104;
+    list-style-type: none;
+    padding: 10px
 }
-footer>li{
-padding:1%;
-}
+/*end of footer style*/
