@@ -19,16 +19,16 @@
          <nav class="inline-block">
             <ul class="nav_buttons">
                 <li class="nav-item">
-                    <a href="#">About</a> 
+                    <a href="#heroImg">About</a> 
+                </li>
+                <li class="nav-item"  onClick="document.getElementById('skills-section').scrollIntoView()">
+                    <a href="#skills-section">Skills</a> 
                 </li>
                 <li class="nav-item">
-                    <a href="#">Skills</a> 
+                    <a href="#mywork-section">My Work</a> 
                 </li>
                 <li class="nav-item">
-                    <a href="#">My Work</a> 
-                </li>
-                <li class="nav-item">
-                    <a href="#">Contact Me</a>  
+                    <a href="#contact-me">Contact Me</a>  
                 </li>
             </ul>
          </nav>
@@ -38,13 +38,13 @@
     <!--End of NavBar Section-->
     
     <!--Beginning of Hero Image Section-->
-     <sec class="heroImg">
+     <sec class="heroImg" id="heroImg"">
         <!--find hero image and insert below! -->
          <div class="content">
              <img id="me"src="./Images/filler hero img.png">
              <h1>Hi! I'm Danica Samuel</h1>
              <p> I’m a UX designer based in Minneapolis, MN and I love to sing, knit, crochet, and draw. When I create, I go in with the intention of creating authentic, accessible designs that I’ll be able to enjoy years from now.</p>
-             <button>Download Resume</button>
+             <button href="https://docs.google.com/document/d/1vsHRoLo3DcJ9tmS5HMx33iBDmHFYGWk6CdIi3g1Vo0M/edit" download="Resume_D_Samuel-02_23">Download Resume</button>
          </div>
      </sec>
     <!--End of Hero Image Section-->
@@ -100,23 +100,31 @@
     <!--End of My Work Section-->    
    
     <!--Beginning of Contact Section-->
-    <sec id="contact-section">
-        <div> 
-            <h1 id="contact-title">Contact Me</h1>
-        </div>
-    <sec>
-        <div class="contactcard" id="cc1">
-            <buttton>
-                <img src="./Images/filler sc image.png" class="skill-img">
-                Email
-            </button>
-            <buttton>
-                <img src="./Images/filler sc image.png" class="skill-img">
-                Email
-            </button>
-        </div>
-    </sec>
-    </sec>
+    <div class="container" id="contact-me">  
+        <form id="contact" action="" method="post">
+          <h3>Contact Me</h3>
+          <h4>Let's get to know each other :D</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+          <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+        </form>
+      </div>
 
     <!--End of Contact Section-->
     
@@ -139,7 +147,7 @@
      </footer>
      <!--End of Footer Section-->
     
-
+    
 
     </body>
 </html>
