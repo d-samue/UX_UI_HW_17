@@ -1,6 +1,4 @@
-*{
-    margin:0;
-}
+
 body{
     background-color: #E3F4D2;
 }
@@ -128,6 +126,7 @@ footer{
 /*beginning of skill style*/
 .skillcard{
   display:inline-block;
+  vertical-align: top;
     margin: 10px;
     /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -168,12 +167,13 @@ h2{
 /*beginning of my work style*/
 .workcard{
     display:inline-block;
+    vertical-align: top;
       margin: 10px;
       /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 645px;
-    height: 430px;
+    height: 545px;
     padding-left:auto;
     padding-right:auto;
     padding-top:10px;
